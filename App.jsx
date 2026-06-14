@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 // Initialize EmailJS with your public key
 emailjs.init('dvUl0DWmSQXKchem0');
@@ -277,6 +278,7 @@ export default function JudgedLanding() {
       <footer className="relative py-12 px-4 text-center text-gray-600 text-sm border-t border-gray-800">
         <p>JUDGED © 2025. We don't apologize for anything.</p>
       </footer>
+      <SpeedInsights />
     </div>
   );
       }

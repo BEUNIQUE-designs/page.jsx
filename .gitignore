@@ -32,3 +32,9 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Node.js / React / Vite
+node_modules/
+dist/
+*.local
+.DS_Store
